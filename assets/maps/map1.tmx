@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="60" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="14">
+ <tileset firstgid="1" name="terrain_atlas" tilewidth="16" tileheight="16" tilecount="4096" columns="64">
+  <image source="terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <layer id="1" name="Слой тайлов 1" width="60" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmWluwjAQhdM2JN0pvRHdgO7lUqxSl0tRFqnLifqQEhEsL2OPQ4PkH59GIp7Y4zczTkivFkW9QCAQCAQqSB8MMoZbaEdgTIx1Aj7BNGO2hXYOFsR40ySK9sFBxuEW2iNwnLjHu5NG0S7YAzGogST9/7hU67rDtXtivC2Ma4NOxi1o4h4X4BJcgWtwk66udzRz3ybr42RW5UsdJ66Lqy9lX1V7QvFX+Yp+lHHLfXHVV7WfXL0p/q6WU7/UfZdZG71l+qv2y+TP0ddmXzn1K9qmJl7TPD76c9Ha5rhr/1XdzzSPb31V8/nsw5x88q0vx7r2A5vzgKuvS13qdJRdM43X9S+f/dm1z+Y+snXK7qfTvZmuoKyj7P5sOmc59V7F+lXF43p+ms4B07xl6EupJxtdbfuRrt45+urOWpe6Np3d1PcwXb1z9PX9nGu6n4/5yq5fXW5z6peSF7LxZfdnXW776ss2uvvQl/O+Ytt3uf4+9BU1tHnekeWDTndu33fR11Qvrv2Zc55T/V305fZJjv5cW0Z/dtFftwdV788u+utqQPecRf2/bFPnr09LfT/W6c3RV5aDgziKhmCA68NkZUf4bRz7f9+xzS+OvrIcnCKmGZji+ixZ2Tl+W8Tu56rPfm8Tr6l+i7mSf0fMv8kVfX2957pYm3zuYVw/y1MxZ5d2BMbJ+nfE/Jtc0Vf026QdUWMFE4z9zPJUzNmlnYNFsp73eQ4VfUW/Tdq5RbzG+gb7Qu5a59AW0QJtSe7meU65xyv62ht4Bx/x/8dkBGvsx+u5m+c5xf8Lvt/gB/xm8Z6gt52COjgDDXCeViBWMFnGytClDs5AA5xnvz0gtkfwBJ7BC+hWJF4uT+AZvIBuBdYTCAQCVeQP6/hZ0w==
+  </data>
+ </layer>
+ <layer id="6" name="Слой тайлов 2" width="60" height="50">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer id="8" name="Слой тайлов 3" width="60" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztl7lKA1EUQC8xMsGQKom9K2jn+iNZelfQzvVPtHeFpMvaufyE9q5guqydy7EIkVEImDfPmNwDB/JS3DunmGFGROkmUo5I2rG/7wzPndZ5Aicd76/nhdkli73NfU/47LTOa7jueH89UwGR6YB389vta3cO0x4x2L/B7E2Lve597vMYbeNf+mL8jhvsTbErbbHXvc99XqFt1cv7l10li73ufc3z0ZDIMZ7QemrxefJX3NF6jw+0PvZB70hQZDTY+ZwLv8glXuG1v/N5XrFE67KB3lca3/D9s3Ww83mKoiiKovwPMrwfZjGHeSxgsYffGcu0VbCKNaxjo4d7Z/j+mcU5nMcFXDT8TRb1iQz7zM78LVu0beMO7uIe7hvuTdCa7JLeDG1ZzGEeC1g03HtA62GX9JZpq2AVa1jHhuHeG1pvu6TXBtEB7t+B7/+HQyKRkP3r8ZoErckfemO0xnuwV1EURVEURVEURVEURVEUpd/4ABFFTZk=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Слой объектов 1">
+  <object id="1" x="362" y="303" width="78" height="32">
+   <ellipse/>
+  </object>
+  <object id="4" name="Камера" x="181" y="496">
+   <point/>
+  </object>
+  <object id="6" name="Монетка1" x="192" y="240">
+   <point/>
+  </object>
+  <object id="7" name="Монетка2" x="273" y="649">
+   <point/>
+  </object>
+  <object id="8" name="Монетка3" x="769" y="491">
+   <point/>
+  </object>
+  <object id="9" name="Монетка4" x="657" y="29">
+   <point/>
+  </object>
+  <object id="10" name="Монетка5" x="400" y="320">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
